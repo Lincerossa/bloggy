@@ -5,4 +5,4 @@ title: esperimento
 ---
 ![](/assets/screenshot-2019-10-17-at-13.55.50.png)
 
-contenuto dell'esperimento
+contenuto dell'esperimento yxfsdsdfs
