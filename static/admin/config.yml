@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: lincerossa/bloggy
+  repo: Lincerossa/bloggy
   base_url: https://bloggyio.netlify.com
 
 media_folder: static/assets
