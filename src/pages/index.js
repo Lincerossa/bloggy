@@ -1,17 +1,9 @@
-import React, { useEffect } from "react"
-import styled from 'styled-components'
+import React from "react"
 
-import ImageDistorsion from "../../components/src/ImageDistorsion";
+import ImageDistorsion from "../../components/ImageDistorsion";
 
 export default () => {
-
   return (
-    <ImageDistorsion image={'http://www.tplh.net/file/osaka01.jpg'} />
+    <ImageDistorsion image={'https://images.unsplash.com/photo-1572830066117-bd9003a681d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80'} />
   )
 }
-
-
-const Page = styled.div`
-
-  border: 1px solid red;
-`

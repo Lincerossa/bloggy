@@ -1,8 +1,7 @@
 import React, { useRef, useEffect } from "react"
-import styled from 'styled-components'
 import { THREE  } from 'three.js'
 
-export default ({image}) => {
+export default ({ image }) => {
   const myCanvas = useRef()
 
   useEffect(() => {
