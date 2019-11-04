@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf node_modules/ && rm -rf package-lock.json",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -19,7 +20,8 @@
     "gatsby-transformer-remark": "^2.6.32",
     "netlify-cms-app": "^2.9.7",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
