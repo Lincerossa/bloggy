@@ -5,3 +5,5 @@ title: Bella passeggiata
 location: Bsbsjs Bebd
 ---
 # B
+
+![](/assets/screenshot-2019-10-17-at-13.55.50.png)
