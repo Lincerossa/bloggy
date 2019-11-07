@@ -5,6 +5,8 @@ title: Bella passeggiata
 location: Bsbsjs Bebd
 featuredImage: /assets/screenshot-2019-10-17-at-13.55.50.png
 ---
-# B
+# before image
 
-![](/assets/screenshot-2019-10-17-at-13.55.50.png)
+![altText](/assets/screenshot-2019-10-17-at-13.55.50.png "titleOfTheImage")
+
+after image
