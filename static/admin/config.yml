@@ -16,14 +16,10 @@ collections:
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
       - { name: location, label: Location, widget: markdown }
-
-  - name: work
-    label: work
-    folder: data/work
-    create: true
-    fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
-
+      - { name: "featuredImage", label: "Featured Image", widget: "image" }
+      - label: "Slider"
+        name: "slider"
+        widget: list
+        fields:
+          - {label: "Image", name: "image", widget: image}
+          - {label: "Url", name: "url", widget: string, required: false}

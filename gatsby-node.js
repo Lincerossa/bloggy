@@ -8,9 +8,12 @@ exports.createPages = ({ actions, graphql }) => {
         edges {
           node {
             frontmatter {
-              title
               path
+              title
+              location
               date(formatString: "DD MMMM, YYYY")
+              featuredImage
+       
             }
           }
         }
@@ -34,3 +37,4 @@ exports.createPages = ({ actions, graphql }) => {
     })
   })
 }
+
