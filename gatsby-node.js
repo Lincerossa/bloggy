@@ -13,7 +13,9 @@ exports.createPages = ({ actions, graphql }) => {
               location
               date(formatString: "DD MMMM, YYYY")
               featuredImage
-       
+              slider {
+                image
+              }
             }
           }
         }
